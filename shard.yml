@@ -1,0 +1,9 @@
+name: iom-encrypt
+version: 0.1.0
+
+authors:
+  - iom <>
+
+crystal: 0.35.1
+
+license: MIT
