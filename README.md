@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      iom-encrypt:
-       github: your-github-user/iom-encrypt
+       github: iomcr/iom-encrypt
    ```
 
 2. Run `shards install`
