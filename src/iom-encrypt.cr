@@ -68,7 +68,7 @@ module Iom::Encrypt
     end
 
     def decrypt(data : String) : String
-      self.decrypt EncryptedValue.from_base64 data
+      self.decrypt EncryptedValue.from_base64_json data
     end
 
     def decrypt(data : EncryptedValue) : String
