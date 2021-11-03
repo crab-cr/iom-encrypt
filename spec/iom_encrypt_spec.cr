@@ -22,5 +22,6 @@ describe Iom::Encrypt do
     ev1.should eq ev2
 
     e.decrypt(ev2).should eq value
+    e.decrypt(j2).should eq value
   end
 end
